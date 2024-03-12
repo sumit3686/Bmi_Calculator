@@ -21,43 +21,42 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: First(),
+      home: const First(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key,});
+// class MyHomePage extends StatefulWidget {
+//   const MyHomePage({super.key,});
 
   
 
   
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
+//   @override
+//   State<MyHomePage> createState() => _MyHomePageState();
+// }
 
-class _MyHomePageState extends State<MyHomePage> {
-  var weight = TextEditingController();
+// class _MyHomePageState extends State<MyHomePage> {
+//   var weight = TextEditingController();
 
   
 
-  @override
-  Widget build(BuildContext context) {
+//   @override
+//   Widget build(BuildContext context) {
     
     
-    return Scaffold(
-      appBar: AppBar(
+//     return Scaffold(
+//       appBar: AppBar(
         
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+//         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         
+//         title: const Center(child: Text("Calculate your BMI")),
+//       ),
+//       body: Container(
         
-        title: Center(child: Text("Calculate your BMI")),
-      ),
-      body: Container(
-        
-      )// This trailing comma makes auto-formatting nicer for build methods.
-    );
+//       )// This trailing comma makes auto-formatting nicer for build methods.
+//     );
     
-  }
-}
+//   }
+// }

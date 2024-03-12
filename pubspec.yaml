@@ -30,14 +30,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  syncfusion_flutter_gauges: ^24.1.47
-  numberpicker: ^2.1.2
-  flutter_material_pickers: ^3.6.0
+  syncfusion_flutter_gauges: any
+  numberpicker: any
+  flutter_material_pickers: any
+  
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.4
 
 dev_dependencies:
   flutter_test:
